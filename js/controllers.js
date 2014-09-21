@@ -11,6 +11,8 @@ phonecatControllers.controller('PhoneListCtrl', ['$scope', '$http',
     });
 
     $scope.orderProp = 'age';
+    $scope.dummy1 = '123';
+    $scope.dummy2 = 'abc';
   }]);
 
 phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', '$http',
